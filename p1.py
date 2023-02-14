@@ -12,6 +12,10 @@ for x in file_name:
  if difference >= 60:
   print(f"{file_date.strftime('%Y-%m-%d')}")
   os.remove(file_date.strftime('%Y-%m-%d'))
+  
+  
+  
+#   AWS CLI Command :- aws s3 rm s3://<bucket_name>/<file_name>
 
 
 
